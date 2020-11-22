@@ -1,0 +1,18 @@
+<!--index.wxml-->
+
+  <view class="top">
+    <view>上课时间：10:10</view>
+    <view class="time">当前时间：{{time}}</view>
+    <view>下课时间：11:50</view>
+    <view>教室：1303</view>
+  </view>
+
+  <view class="status">
+    <text>设备状态：{{status}}</text>
+    <image src="{{imgUrl}}"></image>
+  </view>
+
+  <view class="scan">
+    <button bindtap="scan2class">{{runtext}}</button>
+  </view>
+

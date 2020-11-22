@@ -1,0 +1,28 @@
+/**index.wxss**/
+.top {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.top .time {
+  font-size: 20px;
+  font-weight: 500;
+}
+.status {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  align-items: center;
+}
+.status text {
+  font-size: 15px;
+  font-weight: 500;
+}
+.scan {
+  display: flex;
+  margin-top: 30px;
+}
+.scan button {
+  background-color: #7AD18A;
+}
